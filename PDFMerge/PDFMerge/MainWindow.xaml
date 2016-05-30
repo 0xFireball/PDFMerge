@@ -7,19 +7,19 @@
                       xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
                       mc:Ignorable="d"
                       ResizeMode="CanMinimize"
-                      Title="PDFMerge" Height="321.842" Width="334.955" Icon="icon.ico">
+                      Title="PDFMerge" Height="342.242" Width="396.155" Icon="icon.ico">
     <Grid>
         <TextBlock x:Name="titleBlock" Margin="96,25,97.8,0" TextWrapping="Wrap" Text="PDFMerge"
                    VerticalAlignment="Top" Height="41" TextAlignment="Center" FontSize="24" />
-        <TextBlock x:Name="tFile1" HorizontalAlignment="Left" Margin="97,81,0,0" TextWrapping="Wrap" Text="Select File 1"
+        <TextBlock x:Name="tFile1" Margin="110,98,156.6,0" TextWrapping="Wrap" Text="Select File 1"
                    VerticalAlignment="Top" RenderTransformOrigin="0.528,-0.331" />
-        <Button x:Name="btnFile1" Content="Browse" HorizontalAlignment="Left" Margin="96,102,0,0"
-                VerticalAlignment="Top" Width="135" Height="32" Click="btnFile1_Click" />
-        <TextBlock x:Name="tFile2" HorizontalAlignment="Left" Margin="97,145,0,0" TextWrapping="Wrap" Text="Select File 2"
+        <Button x:Name="btnFile1" Content="Browse" Margin="109,119,107.6,0"
+                VerticalAlignment="Top" Height="32" Click="btnFile1_Click" />
+        <TextBlock x:Name="tFile2" Margin="110,162,156.6,0" TextWrapping="Wrap" Text="Select File 2"
                    VerticalAlignment="Top" RenderTransformOrigin="0.528,-0.331" />
-        <Button x:Name="btnFile2" Content="Browse" HorizontalAlignment="Left" Margin="97,166,0,0"
-                VerticalAlignment="Top" Width="135" Height="32" Click="btnFile2_Click" />
-        <Button x:Name="btnGenerate" Content="Merge" Margin="97,226,96.8,0" VerticalAlignment="Top" Height="32"
+        <Button x:Name="btnFile2" Content="Browse" Margin="110,183,106.6,0"
+                VerticalAlignment="Top" Height="32" Click="btnFile2_Click" />
+        <Button x:Name="btnGenerate" Content="Merge" Margin="110,243,106.6,0" VerticalAlignment="Top" Height="32"
                 Background="#FFFFCBCB" Click="btnGenerate_Click" />
     </Grid>
     <controls:MetroWindow.RightWindowCommands>
