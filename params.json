@@ -1,0 +1,6 @@
+{
+  "name": "PDFMerge",
+  "tagline": "A really simple and open-source tool to merge PDFs.",
+  "body": "# PDFMerge\r\nA really simple and open-source tool to merge PDFs.\r\nThis was created for two reasons:\r\n- To test out the PDFSharp library\r\n- To make it easy for people to merge PDFs without falling into the tyranny of Adobe\r\n\r\n(c) ZetaPhase Technologies, 2016.\r\nLicensed under the MIT License.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
