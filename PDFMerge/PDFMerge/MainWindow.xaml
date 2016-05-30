@@ -9,11 +9,22 @@
                       ResizeMode="CanMinimize"
                       Title="PDFMerge" Height="321.842" Width="334.955" Icon="icon.ico">
     <Grid>
-        <TextBlock x:Name="titleBlock" Margin="96,25,97.8,0" TextWrapping="Wrap" Text="PDFMerge" VerticalAlignment="Top" Height="41" TextAlignment="Center" FontSize="24" />
-        <TextBlock x:Name="tFile1" HorizontalAlignment="Left" Margin="150,81,0,0" TextWrapping="Wrap" Text="File 1" VerticalAlignment="Top" RenderTransformOrigin="0.528,-0.331"/>
-        <Button x:Name="btnFile1" Content="Browse" HorizontalAlignment="Left" Margin="96,102,0,0" VerticalAlignment="Top" Width="135" Height="32" Click="btnFile1_Click" />
-        <TextBlock x:Name="tFile2" HorizontalAlignment="Left" Margin="151,145,0,0" TextWrapping="Wrap" Text="File 2" VerticalAlignment="Top" RenderTransformOrigin="0.528,-0.331"/>
-        <Button x:Name="btnFile2" Content="Browse" HorizontalAlignment="Left" Margin="97,166,0,0" VerticalAlignment="Top" Width="135" Height="32" Click="btnFile2_Click" />
-        <Button x:Name="btnGenerate" Content="Merge" Margin="97,226,96.8,0" VerticalAlignment="Top" Height="32" Background="#FFFFCBCB" />
+        <TextBlock x:Name="titleBlock" Margin="96,25,97.8,0" TextWrapping="Wrap" Text="PDFMerge"
+                   VerticalAlignment="Top" Height="41" TextAlignment="Center" FontSize="24" />
+        <TextBlock x:Name="tFile1" HorizontalAlignment="Left" Margin="97,81,0,0" TextWrapping="Wrap" Text="Select File 1"
+                   VerticalAlignment="Top" RenderTransformOrigin="0.528,-0.331" />
+        <Button x:Name="btnFile1" Content="Browse" HorizontalAlignment="Left" Margin="96,102,0,0"
+                VerticalAlignment="Top" Width="135" Height="32" Click="btnFile1_Click" />
+        <TextBlock x:Name="tFile2" HorizontalAlignment="Left" Margin="97,145,0,0" TextWrapping="Wrap" Text="Select File 2"
+                   VerticalAlignment="Top" RenderTransformOrigin="0.528,-0.331" />
+        <Button x:Name="btnFile2" Content="Browse" HorizontalAlignment="Left" Margin="97,166,0,0"
+                VerticalAlignment="Top" Width="135" Height="32" Click="btnFile2_Click" />
+        <Button x:Name="btnGenerate" Content="Merge" Margin="97,226,96.8,0" VerticalAlignment="Top" Height="32"
+                Background="#FFFFCBCB" Click="btnGenerate_Click" />
     </Grid>
+    <controls:MetroWindow.RightWindowCommands>
+        <controls:WindowCommands>
+            <Button Name="btnZetaPhase" Content="ZetaPhase Technologies" FontSize="14" Click="BtnZetaPhase_OnClick" />
+        </controls:WindowCommands>
+    </controls:MetroWindow.RightWindowCommands>
 </controls:MetroWindow>
