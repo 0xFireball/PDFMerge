@@ -3,8 +3,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Windows;
 using MahApps.Metro.Controls.Dialogs;
-using PdfSharp.Pdf;
-using PdfSharp.Pdf.IO;
 using PDFMerge.Shared;
 
 namespace PDFMerge
@@ -56,7 +54,6 @@ namespace PDFMerge
             {
                 try
                 {
-
                     outputFile = PdfMergeWpfUtil.BrowseForSaveFile("PDF Documents (*.pdf)|*.pdf|All Files (*.*)|*.*", "Save Output File");
                     PDFMerger.MergePdfFiles(file1, file2, outputFile);
                     var result = await this.ShowMessageAsync("Success!", "Your PDF files have been merged! Do you want to open the merged PDF?", MessageDialogStyle.AffirmativeAndNegative, new MetroDialogSettings() { AffirmativeButtonText = "Yes", NegativeButtonText = "No" });
