@@ -2,7 +2,7 @@
 
 namespace PDFMerge
 {
-    internal class PdfMergeUtil
+    internal class PdfMergeWpfUtil
     {
         public static string BrowseForSaveFile(string filter, string title)
         {

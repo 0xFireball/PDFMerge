@@ -5,7 +5,12 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFMerge", "PDFMerge\PDFMerge.csproj", "{16A650E5-507A-4EA6-834D-9C61CC446E87}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PDFMerge.Shared", "PDFMerge.Shared\PDFMerge.Shared.shproj", "{B1D61237-3048-4D4C-B157-5D8488345017}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PDFMerge.Shared\PDFMerge.Shared.projitems*{b1d61237-3048-4d4c-b157-5d8488345017}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
