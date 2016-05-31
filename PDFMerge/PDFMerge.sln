@@ -9,6 +9,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PDFMerge.Shared", "PDFMerge
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PDFMerge.Shared\PDFMerge.Shared.projitems*{16a650e5-507a-4ea6-834d-9c61cc446e87}*SharedItemsImports = 4
 		PDFMerge.Shared\PDFMerge.Shared.projitems*{b1d61237-3048-4d4c-b157-5d8488345017}*SharedItemsImports = 13
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

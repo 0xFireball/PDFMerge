@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using PdfSharp.Pdf;
+using PdfSharp.Pdf.IO;
 
 namespace PDFMerge.Shared
 {
-    class PDFMerger
+    internal class PDFMerger
     {
         public static void MergePdfFiles(string file1, string file2, string outputFile)
         {
