@@ -13,7 +13,7 @@ namespace PDFMerge.Mac
 		public override void DidFinishLaunching (NSNotification notification)
 		{
 			// Insert code here to initialize your application
-		}
+		}	
 
 		public override void WillTerminate (NSNotification notification)
 		{
