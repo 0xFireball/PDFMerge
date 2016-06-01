@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFMerge", "PDFMerge\PDFMer
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PDFMerge.Shared", "PDFMerge.Shared\PDFMerge.Shared.shproj", "{B1D61237-3048-4D4C-B157-5D8488345017}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFMerge.Mac", "PDFMerge.Mac\PDFMerge.Mac.csproj", "{7EED0C92-906D-46DF-A2BF-76280DA69D46}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		PDFMerge.Shared\PDFMerge.Shared.projitems*{16a650e5-507a-4ea6-834d-9c61cc446e87}*SharedItemsImports = 4
@@ -21,6 +23,10 @@ Global
 		{16A650E5-507A-4EA6-834D-9C61CC446E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16A650E5-507A-4EA6-834D-9C61CC446E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16A650E5-507A-4EA6-834D-9C61CC446E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EED0C92-906D-46DF-A2BF-76280DA69D46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EED0C92-906D-46DF-A2BF-76280DA69D46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EED0C92-906D-46DF-A2BF-76280DA69D46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EED0C92-906D-46DF-A2BF-76280DA69D46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
